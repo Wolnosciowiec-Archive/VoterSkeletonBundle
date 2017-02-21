@@ -1,0 +1,21 @@
+{
+  "name":        "wolnosciowiec/voter-skeleton-bundle",
+  "description": "Skeleton implementation of Symfony voter",
+  "license":     "LGPLv3",
+  "type":        "symfony-bundle",
+
+  "require": {
+    "php": ">=7.0",
+    "symfony/security": ">=2.8"
+  },
+
+  "require-dev": {
+    "symfony/var-dumper": "*"
+  },
+
+  "autoload": {
+    "psr-4": {
+        "VoterSkeletonBundle\\": ""
+    }
+  }
+}
