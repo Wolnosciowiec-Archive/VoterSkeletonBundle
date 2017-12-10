@@ -48,7 +48,7 @@ abstract class AbstractVoter extends Voter
             return false;
         }
 
-        $className = get_class($subject);
+        $className = $subject ? get_class($subject) : '';
         $className = str_replace('Proxies\\__CG__\\', '', $className);
 
         if ($this->objectClassName
